@@ -1,24 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Sass Starter
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Getting Started
+Use Sass to start your Next.js app with CSS superpowers!
 
-First, run the development server:
+## ⚡️ Quick Start
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/cguliuzza/nextjs-starter)
 
-```bash
-npm run dev
+## 🚀 Getting Started
+
+Run the following command to create a new project with this Starter:
+
+```
+yarn create next-app my-app -e https://github.com/cguliuzza/nextjs-starter
 # or
-yarn dev
+npx create-next-app my-app -e https://github.com/cguliuzza/nextjs-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+```
+yarn dev
+# or
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🧐 What's inside?
+This Starter includes [Sass](https://sass-lang.com/) which is a way to provide superpowers to your CSS.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The rest of the Starter is based off of the Next.js default starter.
 
-## Learn More
+## 📚 Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -27,8 +41,27 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://colbyfayock.com/newsletter"><img src="https://avatars.githubusercontent.com/u/1045274?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Colby Fayock</b></sub></a><br /><a href="https://github.com/colbyfayock/next-sass-starter/commits?author=colbyfayock" title="Code">💻</a> <a href="https://github.com/colbyfayock/next-sass-starter/commits?author=colbyfayock" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/imadatyatalah"><img src="https://avatars.githubusercontent.com/u/70093484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>imad</b></sub></a><br /><a href="https://github.com/colbyfayock/next-sass-starter/commits?author=imadatyatalah" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
